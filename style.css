@@ -1,0 +1,569 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.logo {
+    padding-left: 50px;
+    width: 110px;
+}
+
+/*---------------------left_hearer*/
+.left_header {
+    list-style: none;
+}
+
+.left_header li a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #000;
+}
+
+.left_header li a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.left_header li {
+    float: left;
+    padding-left: 100px;
+    padding-top: 5px;
+}
+
+/*-----right hearer---------------------------*/
+.right-header {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.AllMicrosoft {
+    list-style: none;
+}
+
+.AllMicrosoft li {
+    float: right;
+    padding-top: 5px;
+    transform: translate(-202px);
+    margin-right: 50px;
+
+}
+
+.AllMicrosoft li a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #000;
+}
+
+.signin {
+    list-style: none;
+}
+
+.signin li {
+    float: right;
+    padding-top: 5px;
+    transform: translate(-85px);
+    margin-right: 50px;
+
+}
+
+.signin li a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #000;
+}
+
+.search {
+    list-style: none;
+}
+
+.search li {
+    float: right;
+    padding-top: 5px;
+    transform: translate(-168px);
+}
+
+.search li a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #000;
+}
+
+.right-header li a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #000;
+}
+
+.right-header li {
+    float: right;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+.right-header li a:hover {
+    border-bottom: 2px solid #000;
+}
+
+/* ---------------------------------------------------------------------------*/
+.dropbtn {
+    background-color: #04aa6d00;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    float: right; 
+    transform: translate(-360px,-56px); 
+
+}
+
+.head {
+    font-size: medium;
+    font-weight: bolder;
+    line-height: 80px;
+}
+
+.head:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 1300px;
+    height: 520px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    left: -600px;
+
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+
+}
+
+.dropdown-content1 a:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content1 {
+    display: block;
+    height: 590px;
+    width: 1300px;
+    left: -600px;
+
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    left: -400px;
+    width: 200px;
+
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content2 {
+    display: block;
+    left: -400px;
+    width: 200px;
+}
+
+
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    left: -200px;
+    width: 200px;
+
+}
+
+.dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content3 a:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content3 {
+    display: block;
+    left: -200px;
+    width: 200px;
+}
+
+
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+}
+
+
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    left: 40px;
+    width: 200px;
+
+}
+
+.dropdown-content4 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content4 a:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content4 {
+    display: block;
+    left: 40px;
+    width: 200px;
+}
+
+
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+}
+
+.dropdown-content5 {
+    display: none;
+    position: absolute;
+    left: 270px;
+    width: 200px;
+
+}
+
+.dropdown-content5 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content5 a:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content5 {
+    display: block;
+    left: 270px;
+    width: 200px;
+}
+
+
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+}
+
+.dropdown-content6 {
+    display: none;
+    position: absolute;
+    left: 500px;
+    width: 200px;
+
+}
+
+.dropdown-content6 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content6 a:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content6 {
+    display: block;
+    left: 500px;
+    width: 200px;
+}
+
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+}
+
+/*----------------bodydiv1--------------------*/
+.bodydiv1 {
+    clear: both;
+    width: 100%;
+    height: 500px;
+    padding: 35px;
+    background-image: url('images/background-div1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bodydiv1 h2,
+.para1 {
+    color: #fff;
+    padding-left: 100px;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.bodydiv1 .buttondiv1 {
+    padding: 10px 50px;
+    margin-left: 100px;
+    background-color: #0067b8;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+
+}
+
+.bodydiv1 .buttondiv1:hover {
+    background-color: #0067f8;
+}
+
+/*---bodydiv2--------------------------------------------------------------*/
+.bodydiv2 {
+    padding: 40px;
+    float: left;
+}
+
+.bodydiv2 div {
+    margin-left: 30px;
+    float: left;
+}
+
+.bodydiv2 .linkdiv2 {
+    text-decoration: none;
+    color: #0067b8;
+    text-align: left;
+}
+
+.bodydiv2 .linkdiv2:hover {
+    border-bottom: 2px solid #0067b8;
+}
+
+/*----bodydiv3--------------------------------------------------------------*/
+.bodydiv3 {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-image: url('images/background-div3.JPG');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bodydiv3 h2,
+.paradiv3 {
+    color: #000;
+    padding-left: 100px;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.bodydiv3 .buttondiv3 {
+    padding: 10px 50px;
+    margin-left: 100px;
+    background-color: #0067b8;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+
+}
+
+.bodydiv3 .buttondiv3:hover {
+    background-color: #0067f8;
+}
+
+/*----bodydiv4--------------------------------------------------------------*/
+#id-For-business {
+    padding-top: 40px;
+    padding-left: 70px;
+    font-size: large;
+    transform: translate(0px, 50px);
+
+}
+
+.bodydiv4 {
+    padding: 40px;
+    float: left;
+}
+
+.bodydiv4 div {
+    margin-left: 30px;
+    float: left;
+}
+
+.bodydiv4 .linkdiv4 {
+    text-decoration: none;
+    color: #0067b8;
+    text-align: left;
+}
+
+.bodydiv4 .linkdiv4:hover {
+    border-bottom: 2px solid #0067b8;
+}
+
+/*----bodydiv5--------------------------------------------------------------*/
+.apps {
+    transform: translate(180px, -35px);
+}
+
+#Follow {
+    transform: translate(70px, -1px);
+    font-size: medium;
+    font-style: normal;
+}
+
+.apps li {
+    list-style: none;
+}
+
+.apps li a {
+    float: left;
+    color: #000;
+    margin-right: 50px;
+}
+
+#back a {
+    text-decoration: none;
+    color: #000;
+}
+
+#back {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: none;
+    color: #000;
+    float: right;
+    border-radius: 2px;
+    width: 110px;
+    height: 50px;
+}
+
+#move:hover {
+    transform: translate(5px);
+}
+
+/*----bodydiv6--------------------------------------------------------------*/
+.bodydiv6 {
+    width: 100%;
+    height: 450px;
+    background-color: gainsboro;
+}
+
+.earth li a {
+    color: #616161;
+    margin-right: 5px;
+}
+
+.earth li {
+    list-style: none;
+    float: left;
+    transform: translate(50px);
+}
+
+.earth li a {
+    text-decoration: none;
+}
+
+.earth li a:hover {
+    border-bottom: 1px solid #616161;
+}
+
+.bodydiv6 .MicrosoftStore {
+    width: 15%;
+    height: 90%;
+    float: left;
+    color: #616161;
+
+}
+
+.MicrosoftStore {
+    transform: translate(-160px);
+}
+
+.MicrosoftStore ul {
+    padding-left: 0%;
+    padding-top: 5%;
+}
+
+.MicrosoftStore li {
+    list-style: none;
+    padding-top: 15px;
+    padding-left: 2%;
+}
+
+.MicrosoftStore li a {
+    text-decoration: none;
+    color: #616161;
+    padding-top: 15px;
+    font-size: small;
+}
+
+.MicrosoftStore li a:hover {
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+
+.MicrosoftStore h4 {
+    margin-bottom: -20px;
+}
+
+.About li a {
+    color: #616161;
+    margin-right: 5px;
+}
+
+.About li {
+    list-style: none;
+    float: right;
+    transform: translate(-120px);
+    font-size: small;
+    padding-left: 20px;
+}
+
+.About li a {
+    text-decoration: none;
+}
+
+.About li a:hover {
+    border-bottom: 1px solid #000;
+    color: #000;
+}
