@@ -115,68 +115,46 @@ body {
 /* ---------------------------------------------------------------------------*/
 .dropbtn {
     background-color: #04aa6d00;
-    color: rgb(0, 0, 0);
+    color:#000;
     padding: 16px;
     border: none;
-    cursor: pointer;
 }
 
 .dropdown {
-    position: relative;
     float: right; 
     transform: translate(-360px,-56px); 
-
 }
 
 .head {
-    font-size: medium;
-    font-weight: bolder;
-    line-height: 80px;
+    font-size: large;
 }
-
-.head:hover {
-    text-decoration: none;
-    cursor: default;
-}
-
 .dropdown-content1 {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 1300px;
-    height: 520px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    left: -600px;
-
 }
-
 .dropdown-content1 a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    width: fit-content;
-
 }
 
 .dropdown-content1 a:hover {
     text-decoration: underline;
 }
 
-.dropdown:hover .dropdown-content1 {
+.dropdown:hover .dropdown-content1{
     display: block;
     height: 590px;
-    width: 1300px;
-    left: -600px;
-
+    width: 1200px;
+    left: -800px;
 }
 
 .dropdown-content2 {
     display: none;
     position: absolute;
-    left: -400px;
-    width: 200px;
-
 }
 
 .dropdown-content2 a {
@@ -192,8 +170,7 @@ body {
 
 .dropdown:hover .dropdown-content2 {
     display: block;
-    left: -400px;
-    width: 200px;
+    left: -600px;
 }
 
 
@@ -205,8 +182,6 @@ body {
     display: none;
     position: absolute;
     left: -200px;
-    width: 200px;
-
 }
 
 .dropdown-content3 a {
@@ -222,8 +197,7 @@ body {
 
 .dropdown:hover .dropdown-content3 {
     display: block;
-    left: -200px;
-    width: 200px;
+    left: -400px;
 }
 
 
@@ -236,8 +210,6 @@ body {
     display: none;
     position: absolute;
     left: 40px;
-    width: 200px;
-
 }
 
 .dropdown-content4 a {
@@ -253,8 +225,7 @@ body {
 
 .dropdown:hover .dropdown-content4 {
     display: block;
-    left: 40px;
-    width: 200px;
+    left: -200px;
 }
 
 
@@ -266,8 +237,6 @@ body {
     display: none;
     position: absolute;
     left: 270px;
-    width: 200px;
-
 }
 
 .dropdown-content5 a {
@@ -283,8 +252,7 @@ body {
 
 .dropdown:hover .dropdown-content5 {
     display: block;
-    left: 270px;
-    width: 200px;
+    left: 0px;
 }
 
 
@@ -296,8 +264,6 @@ body {
     display: none;
     position: absolute;
     left: 500px;
-    width: 200px;
-
 }
 
 .dropdown-content6 a {
@@ -313,7 +279,7 @@ body {
 
 .dropdown:hover .dropdown-content6 {
     display: block;
-    left: 500px;
+    left: 200px;
     width: 200px;
 }
 
